@@ -1,0 +1,94 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    border: 0px solid black;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    width: 250px;
+}
+
+body{
+    background-color: black;
+    padding-top: 0px;
+}
+
+.cuerpo {
+	width: 600px;
+    max-width: 600px;
+    margin: 0 auto;   
+}
+.flex-container{
+    //display: flex;
+}
+
+.cuerpo{
+    width: 300px;
+    height: 540px;
+    min-width: 100px;
+    border: 0px solid black;
+    margin-top:50px;
+    background-color: white;
+    padding: 30px;
+    
+}
+
+.img{
+    height: 400px;
+    
+}
+.box{
+    display: inline-flex;
+    margin: auto;
+}
+.html{
+    padding-top: 10px;
+}
+
+.nomar{
+    position: relative;
+    margin-top: 0px;
+    position: relative;
+    left: -5px;
+}
+
+.nomargen{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    
+}
+#padre{
+    display: flex;
+    justify-content: first baseline;
+    margin-top: 10px;
+    
+}
+#div1{
+    
+}
+#div2{
+    position: relative;
+    left: 8px;
+}
+#div3{
+    position: relative;
+    left: 15px;
+
+}
+#div4{
+    position: relative;
+    left: 240px;
+    
+
+}
